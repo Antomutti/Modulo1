@@ -1,0 +1,21 @@
+h2{
+    font-size: 50px;
+    font-family: 'roboto';
+    text-decoration: underline;
+}
+.a1{
+    font-size: 20px;
+    font-family: "qwitechear gripen";
+    color: #808080;
+}
+.b2{
+    font-size: 25px;
+    font-family: "loto";
+}
+span{
+    background-color: #808080;
+}
+h3 a{
+    text-decoration: none;
+    color:#dc143c ;
+}

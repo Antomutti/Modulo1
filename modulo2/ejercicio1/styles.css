@@ -1,0 +1,23 @@
+h1 {
+    font-size: 120px;
+    font-family: 'dynapuff';
+    font-weight: 800;
+}
+.primero p{
+font-size: 48px;
+color:#BEE564;
+font-family: 'roboto';
+font-weight: 800;
+}
+.segundo p{
+    font-size: 48px;
+    color:#A582DE;
+    font-family: 'roboto';
+    font-weight: 800;
+}
+.tercero p{
+    font-size: 48px;
+    color: #AE75AE;
+    font-family: 'roboto';
+    font-weight: 800;
+}

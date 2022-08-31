@@ -1,0 +1,32 @@
+h1{
+    font-size: 50px;
+    font-family: "Source Code Pro";
+}
+h2{
+    font-size: 35px;
+    font-family: "anek telugo";
+}
+.tema1{
+    font-size: 25px;
+    font-family: 'inconsolata';
+}
+.b1{
+    font-size: 20px;
+    font-family:"qwitchear";
+    color: #ff4500;
+}
+.b2{
+    font-size: 20px;
+    font-family:"qwitchear";
+    color: #008000;
+}
+.b3{
+    font-size: 20px;
+    font-family: "qwitchear";
+    color: #0000ff;
+}
+.b4{
+    font-size: 20px;
+    font-family: "qwitchear";
+    color: #ff0000;
+}

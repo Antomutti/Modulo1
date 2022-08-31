@@ -1,0 +1,28 @@
+h1{
+    font-size: 80px;
+    font-family:"roboto" ;
+}
+h2{
+    font-size: 50px;
+    font-family:'Lucida Sans';
+}
+.cuenta1{
+    font-size: 30px;
+    font-family: "Josefin Sans";
+}
+.a1{
+    font-size: 15px;
+    font-family: 'Roboto mono';
+    color:#908E90;
+
+    }
+.b2{
+    font-size:25px;
+    font-family: "Roboto Mono";
+    color: #008000;
+}
+.v1{
+    font-size: 25px;
+    font-family: "Josefin Sans";
+    color: #ff0000;
+}

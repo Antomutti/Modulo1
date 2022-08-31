@@ -1,0 +1,25 @@
+body { 
+    background-color: #0A5314;
+}
+h1{
+    font-size: 120px;
+    font-family: 'Open+Sans';
+    font-weight: 800;
+}
+.primero p{
+    font-size: 48px;
+    color: #D6D4E3;
+    font-family: 'roboto' ;
+    font-weight: 800;
+}
+.segundo p{
+font-size: 48px;
+color: #BEE564;
+font-family: 'roboto';
+font-weight: 800;
+}
+.tercero p{
+    font-size: 48px;
+    color:#4D7176;
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+h1{
+    font-size: 77px;
+    color: #B21C23;
+    font-family: 'Anek Telugu';
+    font-weight: 800;
+}
+h2{
+    font-size: 70px;
+    font-family:'Alumni Sans Pinstripe';
+    font-weight: 700px;
+}
+p{
+    font-size: 50px;
+    font-family: 'Noto Serif Display';
+    font-weight: 700;
+}
+.unico p{
+    font-size: 50px;
+    font-family:'Anek Telugu' ;
+    font-weight: 700;
+}
+
