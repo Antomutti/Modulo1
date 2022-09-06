@@ -1,0 +1,48 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 650px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+.box2{
+    height: 80%;
+    max-width: 30rem;
+    display: flex;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: solid;
+}
+
+img{
+    height: 100%;
+    max-width: 30rem;
+    display: flex;
+}
+.box3{
+    height: 80%;
+    width: 40%;
+    flex-grow: 1;
+    border-style: solid;
+    margin-right: 1%;
+}
+.box3 h1{
+    font-size: 35px;
+    font-family: 'Ubuntu';
+    margin-left: 1%;
+    text-decoration: underline;
+}
+.box3 p{
+    font-size: 25px;
+    font-family: 'Ubuntu';
+}
+
+.box3 .año{
+    margin-left: 2%;
+    display: flex;
+}

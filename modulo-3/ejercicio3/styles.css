@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 45rem;
+    max-height: 45rem;
+    width: 35rem;
+    background-color: rgb(180, 177, 177);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .boxtop{
+    height: 15%;
+    width: 90%;
+    background-color: white;
+    border-style: solid;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .boxtop .Foto{
+    height: 85%;
+    width: 25%;
+    max-width: 8rem;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+header .boxtop .Nombre{
+    height: 85%;
+    width: 40%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+header .boxtop .Icono{
+    height: 85%;
+    width: 25%;
+    max-width: 8rem;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+header .boxmid{
+    height: 68%;
+    width: 90%;
+    background-color: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .boxmid h4{
+    margin-left: 2%;
+}
+
+header .boxmid .Perfil{
+    height: 15%;
+    width: 90%;
+    border-style: solid; 
+}
+
+header .boxmid .Contacto{
+    height: 15%;
+    width: 90%;
+    border-style: solid; 
+}
+
+header .boxmid .Tarjetas{
+    height: 15%;
+    width: 90%;
+    border-style: solid; 
+}
+
+header .boxmid .Redes{
+    height: 15%;
+    width: 90%;
+    border-style: solid; 
+}
+
+header .boxmid .Ajustes{
+    height: 15%;
+    width: 90%;
+    border-style: solid; 
+}
+
+header .boxbot{
+    height: 10%;
+    width: 90%;
+    background-color: white;
+    border-style: solid;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .boxbot .Footer{
+    max-height: 4rem;
+    width: 40%;
+    background-color: red;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .boxbot .Footer a{
+    font-size: 30px;
+    text-decoration: none;
+    word-wrap: break-word;
+    color: white;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: normal;
+}
