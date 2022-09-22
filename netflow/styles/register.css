@@ -1,0 +1,11 @@
+.register {
+    background-image: url(../Images/backgroundRegister.jpg);
+    backdrop-filter: brightness(50%);
+    font-family: var(--base-font);
+    color:white;
+    height: 100vh;
+}
+
+.register main {
+    height: 50vh;
+}

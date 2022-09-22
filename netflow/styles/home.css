@@ -1,0 +1,206 @@
+.home {
+    background-color: var(--Black);
+    font-family: var(--base-font);
+    color: var(--White);
+}
+
+
+.home section.descripcion{
+    background-image: url(../Images/1366_2000.jpeg);
+    width: 100%;
+    height: 15rem;
+    padding-top: 6rem;
+    background-size: cover;
+    box-shadow: inset 0px -79px 53px -22px var(--Black);
+    position: relative;
+}
+
+.home section.descripcion .description-recommended{
+    width: 60%;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;    
+}
+
+.home section.descripcion .description-recommended  .type-recommended{
+    display: none;
+}
+
+.home section.descripcion .description-recommended .information-recommended{
+    display: flex;
+    flex-direction: column;
+}
+
+.home section.descripcion .description-recommended .information-recommended h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home section.descripcion .description-recommended .information-recommended p{
+    font-size: 0.5rem;
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button{
+    font-size: 0.5rem;
+    margin: 0.5px;
+    height: 2rem;
+    border-radius:5px ;
+    border: none;
+    font-weight: bold;
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button:nth-child(1){
+    width: 50%;
+    background-color: var(--button-white);
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button:nth-child(1):hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button:nth-child(2){
+    width: 50%;
+    background-color: var(--button-gray);
+    color: white;
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button:nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.854);
+}
+
+.home section.descripcion .description-recommended .contain-buttonsrecommended button i{
+    font-size: 1rem;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.home main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3rem;
+}
+
+.home main .barrap{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-left: 3%;
+    margin-bottom: 1rem;
+}
+
+.home main .barrap h4{
+    margin: 10px 0;
+}
+
+.home main .barrap .cards{
+   height: 5rem;
+   overflow: hidden;
+}
+
+.home main .barrap .cards .peli{
+    height: 5rem;
+    width: 9rem;
+    display: inline-block;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+
+.home main .barrap .cards .peli:hover {
+    transform: scale(1.2);
+}
+
+.home main .barrap .cards .peli img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+    .home section.descripcion{
+        height: 22rem;
+    }
+
+    .home section.descripcion .description-recommended{
+        width: 35%;
+    }
+    .home section.descripcion .description-recommended .type-recommended{
+        display: flex;
+        align-items: center;
+    }
+    .home section.descripcion .description-recommended .type-recommended img{
+        width: 0.5rem;
+        height: 1rem;
+    }
+
+    .home section.descripcion .description-recommended .type-recommended h2{
+        margin-left: 5px;
+        text-transform: uppercase;
+        letter-spacing: 8px; 
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+
+    .home section.descripcion .description-recommended .contain-buttonsrecommended button i{
+        font-size: 0.9rem;
+    }
+
+    .home main {
+        top: -5rem
+    }
+    .home main .barrap .cards {
+        height: 8rem;
+        width: 60rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .home main {
+        top: -5rem;
+    }
+    .home main .barrap .cards {
+        height: 8rem;
+        width: 60rem;
+    }
+    .home section.descripcion {
+        height: 80vh;
+    }
+    .home section.descripcion .description-recommended .type-recommended img{
+        width: 1rem;
+        height: 2rem;
+    }
+    .home section.descripcion .description-recommended .type-recommended h2{
+        font-size: 1rem;
+    }
+
+    .home section.descripcion .description-recommended .information-recommended h1{
+        font-size:  4rem;
+    }
+    .home section.descripcion .description-recommended .information-recommended p{
+        font-size: 0.7rem;
+    }
+    .home section.descripcion .description-recommended .contain-buttonsrecommended{
+        width: 90%;
+
+    }
+    .home section.descripcion .description-recommended .contain-buttonsrecommended button {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+    .home section.descripcion .description-recommended .contain-buttonsrecommended button i {
+        font-size: 1.2rem;
+    }
+}

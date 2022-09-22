@@ -1,0 +1,274 @@
+.container {
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto;
+    margin-top: 1%;
+    display: flex;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja1 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+}
+
+.verde1 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja2 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display:flex ;
+    position: absolute;
+    bottom: 0;
+}
+
+.verde2 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja3 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.verde3 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja4 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display:flex ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.verde4 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja5 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.verde5 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.six {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja6 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.verde6 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+}
+
+.seven {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja7 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.verde7 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.eight {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja8 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.verde8 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 30%;
+    right:0;
+}
+
+.nine {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+
+.roja9 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.verde9 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top:35%;
+    right: 35%;
+}

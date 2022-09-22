@@ -1,0 +1,20 @@
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./home.css);
+@import url(./register.css);
+@import url(./Footer.css);
+:root{
+    --Black: #141414;
+    --White: #f3f1f1;
+    --base-font: "nanum gothic";
+    --hover: rgb(139, 139, 139);
+    --button-white: rgba(255, 255, 255, 0.73);
+    --button-gray: rgba(128, 128, 128, 0.509);
+}
+
+a{
+    color: var(--White);
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,144 @@
+header{
+    background-color: transparent;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+}
+
+header .seccion1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 65%;
+}
+
+header .seccion1 .barra{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+header .seccion1 .barra img{
+    height: 100%;
+    width: 100%;
+}
+
+header .seccion1 .barra img:hover{ 
+    cursor: pointer;
+}
+
+header .seccion1 .cbarra{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+header .seccion1 .cbarra a{
+    font-size: 0.5rem;
+}
+
+header .seccion1 .cbarra a:hover{
+    color: gray;
+}
+
+header .seccion1 .cbarra #popular,
+header .seccion1 .cbarra #list,
+header .seccion1 .cbarra #idiom{
+    display: none ;
+}
+
+header .barra2{
+    width: 20%;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .barra2 a:hover{
+    color: gray;
+
+}
+
+@media (min-width: 768px) {
+
+    header .seccion1{
+        width:60%
+    }
+    
+    header .seccion1 .barra{
+        width: 20%;
+    }
+
+    header .seccion1 .cbarra{
+        width: 80%;
+    }
+    header .seccion1 .cbarra a {
+        font-size: 0.7rem;
+    }
+
+    header .barra2{
+        width: 15%;
+    }
+
+    header .barra2 a{
+        font-size: 0.7rem;
+    }
+
+    header .seccion1 .cbarra #popular,
+    header .seccion1 .cbarra #list {
+        display: block;
+    }
+
+}
+@media (min-width: 1024px){
+
+    header {
+        height: 4rem;
+    }
+    header .seccion1{
+        margin-left: 2rem;
+    }
+
+    header .seccion1 .barra{
+        width: 15%;
+    }
+    header .seccion1 .cbarra #idiom{
+        display: block;
+    }
+    header .seccion1 .cbarra a{
+        font-size: 0.8rem;
+    }
+    header .barra2{
+        width: 10%;
+    }
+    header .barra2 a{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1440px) {
+
+     header .seccion1{
+         margin-left: 2rem;
+         width: 50%;
+     }
+     header .seccion1 .barra{
+        width: 6rem;
+     }
+    header .seccion1 .cbarra a{
+        font-size: 0.8rem;
+    }
+    header .barra2{
+        width: 10%;
+    }
+    header .barra2 a{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(228, 235, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 27rem;
+    height: 40rem;
+    position: relative;
+    display: flex;
+}
+
+.images {
+    position: relative;
+    display: flex;
+}
+
+.card .images .botones {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 3%;
+    left: 2%;    
+}
+
+.card .images .botones button:nth-child(1) {
+    width: 5.5rem;
+    height: 1.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 25%;
+    margin: 3%;
+    border: none;
+}
+
+.card .images .botones button:nth-child(2) {
+    width: 3rem;
+    height: 1.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 25%;
+    border: none;
+}
+
+.cora img {
+    width: 3rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    right: 3%;
+    top: 2%
+}
+
+.shirt img {
+    position: relative;
+    z-index: -1;
+}
+
+.card .images .title {
+    display: flex;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+}
+
+.card .images .title h1{
+    font-size: 25px;
+    font-family: 'roboto';
+}
+
+.card .images .title p{
+    font-size: 25px;
+    font-family: 'roboto';
+    display: flex;
+    position: absolute;
+    right: -100px;
+    bottom: -10px;
+    color: green;
+}
+
+.card .images .title2 {
+    font-size: 13px;
+    font-family: 'roboto';
+    color: gray;
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+}

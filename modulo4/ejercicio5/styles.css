@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 25rem;
+    height: 25rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    position: relative;
+}
+
+.imagen1 img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.imagen2 img{
+    width: 3rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 25%;
+    z-index: 2;
+    bottom: 7%;
+    right: 7%;
+}

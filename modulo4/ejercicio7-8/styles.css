@@ -1,0 +1,54 @@
+header {
+    height: 3rem;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: -40%;
+}
+
+header nav ul {
+    list-style: none;
+    color: white;
+}
+
+.hide > li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.hide li:hover {
+    cursor: pointer;
+}
+
+.hide1 ul {
+    position: relative;
+    display: flex;
+}
+
+.hide1 {
+    position: absolute;
+    background-color: black;
+    width: 15%;
+    display: none;
+}
+
+.hide1 li {
+    display: block;
+    padding: 12px;
+    color: white;
+    position: relative;
+    left: -70%;
+}
+
+header nav .hide li:hover > ul {
+    cursor: pointer;
+    display: block;
+    
+}
