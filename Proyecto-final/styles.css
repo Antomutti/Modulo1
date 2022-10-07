@@ -1,0 +1,195 @@
+header{
+    height: 4rem;
+    width: 100%;
+    background-color:rgb(202, 82, 112);
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    margin: 20px;
+}
+
+.barrai a{
+    font-family:"alkalami" ;
+    font-size:30px;
+    text-decoration: none;
+    color: rgb(29, 194, 78);
+}
+
+.barra2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.barra{
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra button{
+    text-align: center;
+    height: 3rem;
+    width: 8rem;
+    font-family: "Alkalami";
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(16, 143, 73);
+    border-radius: 10%;
+    background-color: red;
+}
+
+main {
+    width: 100%;
+    height: 233rem;
+    position: relative;
+    display: flex;
+    background-color: rgb(224, 181, 224);
+}
+
+.box{
+    width: 376px;
+    height: 40rem;
+    border-style:groove;
+    margin-left: 1px;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow:10px 15px 10px black;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container  article .characters{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .characters .box .character{
+    margin-top: 10%;
+}
+
+.container .characters .box .imag {
+    width: 100%;
+    height: 23rem;
+    overflow: hidden;
+}
+
+.container .characters .box img{
+    width: 100%;
+}
+
+.container .characters .box img:hover{
+    filter: grayscale(80%);
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+.container .characters .box .character p{
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container .characters .box .ver{
+    width: 376px;
+    height: 50px;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: -1%;
+    bottom: -2px;
+}
+
+.container .characters .box .ver a{
+    margin-left: 10%;
+}
+
+.container .characters .box a{
+    font-size:25px;
+    text-decoration: none;
+    color: crimson;
+}
+
+.bot{
+    width: 100%;
+    height: 250px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 15px;
+    border-radius: 20%;
+    
+}
+
+.botones button:hover{
+    transform: scale(1);
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+    box-shadow:3px 3px 3px 3px rgb(11, 196, 5);
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 12rem;
+    position: relative;
+    bottom: -1%;
+}
+
+footer .footer{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 40px;
+}
+
+footer .copyright{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    font-size: 20px;
+}
+
+  
+.desactived{
+    color: rgb(229, 229, 240);
+    background-color: rgb(131, 18, 3);
+}
+
+.desactived:hover{
+    cursor: auto;
+    
+}
